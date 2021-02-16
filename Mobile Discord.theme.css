@@ -63,9 +63,7 @@ html.theme-dark .force-theme.theme-light {
 :root {
     --emoji-color: calc(var(--disabled-emoji-color) * 100%);
 }
-..cozy-3raOZG[user_by_bdfdb="515780151791976453"] .markup-2BOw-j.messageContent-2qWWxC {
-    text-align: right;
-}
+
 
 .scrollerInner-2YIMLh,
 .scrollerContent-WzeG7R,

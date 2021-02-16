@@ -17,8 +17,9 @@ So far this Theme works on [Powercord](https://github.com/powercord-org/powercor
 There will be a better BD port
 
 Powercord:
-
 ```cd powercord/src/powercord/themes && git clone https://github.com/doggybootsy/Mobile_Messages```
+Better Discord:
+Go to the [Theme](https://raw.githubusercontent.com/doggybootsy/Mobile_Messages/main/Mobile%20Discord.theme.css) and do Ctrl+s or Command+s
 <!--
 cd ~/Library/Preferences/BetterDiscord/themes && git clone https://github.com/doggybootsy/Mobile_Messages/blob/main/Mobile%20Discord.theme.css
 -->

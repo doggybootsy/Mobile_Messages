@@ -20,6 +20,8 @@
     --show-emoji-description: flex; /* Yes='flex' | No='none' */
     /*system messages*/
     --show-system-messages: flex; /* Yes='flex' | No='none' */
+    /*personal text direction*/
+    --Text-align:right;           /* 'Right'  |  'left' */
 }
 
 
@@ -45,6 +47,10 @@ html.theme-dark .force-theme.theme-light {
 :root {
     --emoji-color: calc(var(--disabled-emoji-color) * 100%);
 }
+..cozy-3raOZG[data-is-author-self="true"] .markup-2BOw-j.messageContent-2qWWxC {
+    text-align: right;
+}
+
 .scrollerInner-2YIMLh,
 .scrollerContent-WzeG7R,
 .chatContent-a9vAAp,
@@ -115,38 +121,6 @@ html.theme-dark .force-theme.theme-light {
 }
 
 
-.search-36MZv- {
-    order: -1;
-}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: width 0.6s ease-in-out;
-    color: #fff;
-    background: none;
-}
-.focused-31_ccS .searchBar-3dMhjb,
-.open-6_Y_aH .searchBar-3dMhjb,
-.searchBar-3dMhjb:hover {
-    width: 240px;
-    background: var(--background-tertiary);
-}
-.icon-3cZ1F_ {
-    height: 24px;
-    width: 24px;
-    color: var(--interactive-normal);
-}
-.iconContainer-O4O2CN {
-    bottom: 3px;
-}
-.search-36MZv- {
-    margin-left: 0;
-}
-
-[href="https://support.discord.com"] {
-    display: none;
-}
-
-
 .message-2qnXI6[data-is-author-self="true"] > .container-1ov-mD > .embedWrapper-lXpS3L {
     border: solid var(--border-width) var(--personal-chat-border) !important;
     border-radius: 8px 8px 0 8px;
@@ -212,7 +186,7 @@ html.theme-dark .force-theme.theme-light {
 }
 
 .cozy-3raOZG[data-is-author-self="true"] .contents-2mQqc9 {
-    text-align: right;
+    text-align: var(--Text-align);
     margin-right: 20px;
 }
 .cozy-3raOZG[data-is-author-self="true"] .contents-2mQqc9 img {
@@ -222,9 +196,7 @@ html.theme-dark .force-theme.theme-light {
     justify-content: flex-end;
     margin-right: 20px;
 }
-.cozy-3raOZG[data-is-author-self="true"] .markup-2BOw-j.messageContent-2qWWxC {
-    text-align: right;
-}
+
 .cozy-3raOZG[data-is-author-self="true"] .headerText-3Uvj1Y {
     float: right;
 }
@@ -295,5 +267,4 @@ html.theme-dark .force-theme.theme-light {
 .emojiItemSelected-1aLkfV {
     background: var(--background-tertiary) !important;
 }
-
 

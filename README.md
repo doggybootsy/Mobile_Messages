@@ -14,4 +14,4 @@ So far this Theme only works on [Powercord](https://github.com/powercord-org/pow
 
 Powercord:
 
-```cd powercord/src/powercord/themes && git clone https://github.com/voidfill/compacted-userarea```
+```cd powercord/src/powercord/themes && git clone https://github.com/doggybootsy/Mobile_Messages```

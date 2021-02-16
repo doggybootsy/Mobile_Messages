@@ -5,7 +5,7 @@
 </p>
 
 ### Variables to adjust
-You can adjust 11 values in the Theme by changing the Variables in the _index.scss 
+You can adjust 11 values in the Theme by changing the Variables in the _index.css 
 
 
 

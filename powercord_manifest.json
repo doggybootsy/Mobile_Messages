@@ -1,8 +1,0 @@
-{
-    "name": "Mobile Discord",
-    "description": "Makes Discord look like a Mobile Messages",
-    "version": "1.0",
-    "author": "Doggybootsy#1333",
-    "theme": "src/_index.scss",
-    "license": "MIT"
-}

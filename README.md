@@ -18,3 +18,6 @@ So far this Theme works on [Powercord](https://github.com/powercord-org/powercor
 Powercord:
 
 ```cd powercord/src/powercord/themes && git clone https://github.com/doggybootsy/Mobile_Messages```
+<!--
+cd ~/Library/Preferences/BetterDiscord/themes && git clone https://github.com/doggybootsy/Mobile_Messages/blob/main/Mobile%20Discord.theme.css
+-->

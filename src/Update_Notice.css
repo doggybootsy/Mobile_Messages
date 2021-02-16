@@ -1,9 +1,8 @@
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
 	content: "Your version of   Mobile Messages   by Doggybootsy is outdated. Please download the newest version from:	https://github.com/doggybootsy/Mobile_Messages" !important;
 	display: var(--version1_0, block) !important;
-	background-color: #4a90e2 !important;
-	box-shadow: 0 1px 5px 0 rgba(var(--vtransparencycolor), 0.3) !important;
-	color: rgb(var(--fontwhite1)) !important;
+	background-color: Red !important;
+	color: #fff !important;
 	flex-grow: 0 !important;
 	flex-shrink: 0 !important;
 	font-size: 14px !important;
@@ -29,4 +28,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	animation: unset !important;
 	z-index: 101 !important;
 	pointer-events: none !important;
+}
+:root{
+--version1_0:block;
 }

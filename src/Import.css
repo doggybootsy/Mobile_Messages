@@ -1,0 +1,224 @@
+
+
+:root {
+    --emoji-color: calc(var(--disabled-emoji-color) * 100%);
+    --version1_0:	none;		/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE	*/
+}
+
+
+.scrollerInner-2YIMLh,
+.scrollerContent-WzeG7R,
+.chatContent-a9vAAp,
+.theme-dark .form-2fGMdU:before {
+    background: var(--background);
+}
+/*variables*/
+.emojiItemDisabled-1FvFuF {
+    -webkit-filter: grayscale(var(--emoji-color));
+    filter: grayscale(var(--emoji-color));
+}
+.edited-3sfAzf {
+    display: var(--show-edited);
+    text-align: center;
+    color: var(--chat-color);
+}
+.timestamp-3ZCmNB {
+    display: var(--show-timestamp);
+}
+.translated-5YO8i3.edited-3sfAzf {
+    display: var(--show-translated);
+}
+.wordmarkWindows-1v0lYD {
+    display: var(--show-Discord-watermark);
+}
+.tooltip-2QfLtc {
+    display: var(--show-tootips);
+}
+.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+    opacity: var(--spoiler-hover);
+    border-radius: 3px;
+    background-color: #4a4d53;
+}
+.flex-1xMQg5 > .flex-1xMQg5 {
+    display: var(--show-emoji-description);
+}
+.popoutContainer-1MXdqN {
+    width: fit-content;
+}
+.disabledPointerEvents-1ptgTB[style*="bottom"] {
+    display: var(--show-bottom-tootips);
+}
+.message-2qnXI6.systemMessage-1I9LCe {
+    display: var(--show-system-messages);
+}
+/**/
+.markup-2BOw-j {
+    color: var(--chat-color);
+}
+
+
+/*color*/
+.mentioned-xhSam7,
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+    background-color: transparent;
+}
+.mentioned-xhSam7:hover {
+    position: relative;
+    background-color: transparent;
+}
+.channelHeader-3Gd2xq {
+    border-radius: 8px;
+}
+
+.mentioned-xhSam7:before {
+    background-color: transparent;
+}
+
+
+.message-2qnXI6[data-is-author-self="true"] > .container-1ov-mD > .embedWrapper-lXpS3L {
+    border: solid var(--border-width) var(--personal-chat-border) !important;
+    border-radius: 8px 8px 0 8px;
+    padding: 2px 4px 2px 4px !important;
+    margin-left: 0;
+    background: var(--chat-background);
+    width: fit-content;
+    margin-left: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+/*david chat*/
+.message-2qnXI6.mentioned-xhSam7>.contents-2mQqc9 >.markup-2BOw-j:not(.slateTextArea-1Mkdgw):not(.repliedTextContent-1R3vnK):not([data-is-author-self="true"]) {
+    border: solid var(--border-width) var(--mentioned-color) !important;
+    border-radius: 8px 8px 8px 0;
+    padding: 2px 4px 2px 4px !important;
+    margin-left: 0;
+    background: var(--chat-background);
+    width: fit-content;
+    box-sizing: border-box;
+}
+.markup-2BOw-j:not(.slateTextArea-1Mkdgw):not(.repliedTextContent-1R3vnK) {
+    border: solid var(--border-width) var(--chat-border) !important;
+    border-radius: 8px 8px 8px 0;
+    padding: 2px 4px 2px 4px !important;
+    margin-left: 0;
+    background: var(--chat-background);
+    width: fit-content;
+    box-sizing: border-box;
+}
+.repliedTextPreview-2NBljf {
+    border: solid var(--border-width) var(--chat-border) !important;
+    border-radius: 8px 8px 8px 8px;
+    padding: 2px 4px 2px 4px !important;
+    margin-left: 0;
+    background: var(--chat-background);
+    width: fit-content;
+    box-sizing: border-box;
+}
+[data-is-author-self="true"] > .contents-2mQqc9 > .markup-2BOw-j {
+    border: solid var(--border-width) var(--personal-chat-border) !important;
+    border-radius: 8px 8px 0 8px;
+    padding: 2px 4px 2px 4px !important;
+    margin-left: 0;
+    background: var(--Personal-chat-background);
+    width: fit-content;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+
+.markup-2BOw-j blockquote,
+.markup-2BOw-j pre {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-left: 72px;
+}
+.message-2qnXI6:not([data-is-author-self="true"]) {
+    padding-right: 68px !important;
+}
+
+.cozy-3raOZG[data-is-author-self="true"] .contents-2mQqc9 {
+    text-align: var(--Text-align);
+    margin-right: 20px;
+}
+.cozy-3raOZG[data-is-author-self="true"] .contents-2mQqc9 img {
+    right: 16px;
+}
+.cozy-3raOZG[data-is-author-self="true"] .container-1ov-mD {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.cozy-3raOZG[data-is-author-self="true"] .headerText-3Uvj1Y {
+    float: right;
+}
+.cozy-3raOZG[data-is-author-self="true"] .username-1A8OIy {
+    float: right;
+    margin-left: 5px;
+}
+.cozy-3raOZG[data-is-author-self="true"] .avatar-1BDn8e {
+    left: unset;
+}
+.cozy-3raOZG[data-is-author-self="true"] .botTag-1un5a6 {
+    float: right;
+}
+/* Repies */
+.cozy-3raOZG[data-is-author-self="true"] > .repliedMessage-VokQwo:before {
+    transform: rotateY(180deg);
+    right: -46px;
+    left: unset;
+    width: 40px;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo {
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+.cozy-3raOZG[data-is-author-self="true"] .compact-T3H92H .username-1A8OIy ~ .badges-XRnWAp,
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .username-1A8OIy ~ .badges-XRnWAp {
+    margin-left: 0.25rem;
+    margin-right: 0;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .repliedTextContentIcon-1ivTae {
+    order: 0;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .repliedTextPreview-2NBljf {
+    order: 1;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .badges-XRnWAp {
+    order: 2;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .botTag-1un5a6 {
+    order: 3;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo .username-1A8OIy {
+    order: 4;
+}
+.cozy-3raOZG[data-is-author-self="true"] .repliedMessage-VokQwo img {
+    order: 5;
+}
+/* Codeblocks */
+.cozy-3raOZG[data-is-author-self="true"] .markup-2BOw-j blockquote,
+.cozy-3raOZG[data-is-author-self="true"] .markup-2BOw-j pre {
+    text-align: left;
+    max-width: unset;
+}
+/* Small margin in name */
+.cozy-3raOZG[data-is-author-self="true"] .headerText-3Uvj1Y {
+    margin-left: 0.25rem;
+    margin-right: 0;
+}
+.chat-3bRxxu {
+    border-radius: 0 0 0 0;
+}
+
+/* End */
+
+.sprite-2iCowe {
+    filter: var(--colored-emoji) !important;
+}
+.emojiItemSelected-1aLkfV {
+    background: var(--background-tertiary) !important;
+}

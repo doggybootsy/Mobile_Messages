@@ -4,6 +4,9 @@
     <img src="https://i.imgur.com/VBE49wL.png">
 </p>
 
+### Description
+Still pretty buggy trying to find a patch
+
 ### Variables to adjust
 You can adjust 11 values in the Theme by changing the Variables in the _index.css 
 

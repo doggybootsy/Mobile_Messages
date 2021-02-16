@@ -46,6 +46,7 @@ html.theme-dark .force-theme.theme-light {
 
 :root {
     --emoji-color: calc(var(--disabled-emoji-color) * 100%);
+    --version1_0:	none;		/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE	*/
 }
 
 

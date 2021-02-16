@@ -13,7 +13,7 @@ You can adjust 11 values in the Theme by changing the Variables in the _index.cs
 
 
 ### Installation
-So far this Theme works on [Powercord](https://github.com/powercord-org/powercord) and [BetterDsicrd](https://www.betterdiscord.net/). There will be a better BD port
+So far this Theme works on [Powercord](https://github.com/powercord-org/powercord) and [BetterDiscord](https://www.betterdiscord.net/). There will be a better BD port
 
 Powercord:
 
